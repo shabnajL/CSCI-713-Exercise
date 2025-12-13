@@ -1,4 +1,4 @@
-
+package org.example;
 public class Utils {
 
     // Poor naming, duplicate logic, code smell
@@ -13,7 +13,7 @@ public class Utils {
     }
 
     // Unused method (code smell)
-    public static void printMessage(String msg) {
-        System.out.println(msg);
-    }
+    // public static void printMessage(String msg) {
+    //    System.out.println(msg);
+    //}
 }
